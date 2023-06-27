@@ -23,3 +23,5 @@ Set : declared in  {} , ordered and unique values
 frozen set : {},unordered, unique values
 
 complex : 1j
+
+boolean : True/False
