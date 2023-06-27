@@ -15,6 +15,11 @@ they are indexable , stores multiple datas, are mutable, declared in []
 
 tuple : 
 declared in (), they are immutable, ordered
+Exception : var = 1,2,3
+	    print(var)
+This default stores in tuple
+
+
 
 dictionary : {key:value}, declared in key value pair, unique keys, duplicate values
 
