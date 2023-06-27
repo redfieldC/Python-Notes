@@ -21,7 +21,13 @@ dictionary : {key:value}, declared in key value pair, unique keys, duplicate val
 Set : declared in  {} , ordered and unique values
 
 frozen set : {},unordered, unique values
+example of how to use it : lst = frozenset({1,2,6,5})
+
 
 complex : 1j
 
 boolean : True/False
+
+
+Class:
+A class is a user defined data type
