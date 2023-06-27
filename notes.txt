@@ -1,0 +1,25 @@
+ 
+str : Strings 
+declared in ' ' , "  " , '''   '''  , """    """
+
+
+int : integer
+It can be both positive and negative
+example :  1,2,3,4,5,6 or -9, -234 etc
+
+
+float : decimal example : 4.8 , 2.5 etc
+
+list :
+they are indexable , stores multiple datas, are mutable, declared in []
+
+tuple : 
+declared in (), they are immutable, ordered
+
+dictionary : {key:value}, declared in key value pair, unique keys, duplicate values
+
+Set : declared in  {} , ordered and unique values
+
+frozen set : {},unordered, unique values
+
+complex : 1j
