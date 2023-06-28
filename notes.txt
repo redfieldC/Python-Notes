@@ -92,3 +92,12 @@ Comparision Operators:
 
 <=
 
+
+Logical Operators:
+
+and
+
+or
+
+
+not
