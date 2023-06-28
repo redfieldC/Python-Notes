@@ -36,3 +36,10 @@ boolean : True/False
 
 Class:
 A class is a user defined data type
+
+
+Operators:
+
+4 + 2 
+4 and 2 are operands
++ is the operator
