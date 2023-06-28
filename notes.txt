@@ -95,9 +95,18 @@ Comparision Operators:
 
 Logical Operators:
 
-and
+and   
+
 
 or
 
 
 not
+
+
+Membership Operators:
+
+in
+
+
+not in
