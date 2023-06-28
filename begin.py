@@ -21,11 +21,9 @@ console_handler.setFormatter(formatter)
 # Add the console handler to the root logger
 logging.getLogger('').addHandler(console_handler)
 
-a = 5
-b = 4
+lst = [1,2,34,5,6]
 
-logging.info("Variable a: %s", a)
-logging.info("Variable b: %s", b)
+logging.info("Variable lst: %s", lst)
 
 result = 5 + 4
 
