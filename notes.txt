@@ -76,3 +76,19 @@ Assignment Operators:
 //=
 
 **=
+
+
+Comparision Operators:
+
+== 
+
+!=
+
+>
+
+<
+
+>=
+
+<=
+
