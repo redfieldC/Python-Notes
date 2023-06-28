@@ -110,3 +110,11 @@ in
 
 
 not in
+
+
+Identity Operators:
+
+is
+example: lst1= [1,2,3],    lst2 = [1,2,3]      lst1 is lst2 return True because both are 'list' class
+
+is not
