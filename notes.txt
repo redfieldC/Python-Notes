@@ -43,3 +43,18 @@ Operators:
 4 + 2 
 4 and 2 are operands
 + is the operator
+
+
++   sum
+
+-   subtraction
+
+/   div
+
+*   multiplication
+
+// floor division
+
+%   modulus
+
+**  exponent/power 
