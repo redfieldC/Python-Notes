@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Person</title>
+</head>
+<body>
+    <h1>Delete Person</h1>
+    <p>Are you sure you want to delete {{ person.first_name }} {{ person.last_name }}?</p>
+    <a href="{% url 'person:confirm_delete' person.pk %}">Yes</a>
+    <a href="{% url 'person:home' %}">No</a>
+</body>
+</html>

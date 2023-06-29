@@ -118,3 +118,23 @@ is
 example: lst1= [1,2,3],    lst2 = [1,2,3]      lst1 is lst2 return True because both are 'list' class
 
 is not
+
+
+Typecasting:
+converting variable from one data type to another
+
+Implicit Typecasting:
+
+converson takes palce by itself:
+example: num1 = 4   num2= 4.2
+
+print(num1 + num2)
+= 6.4
+here the conversion of num1 to float takes place on its own
+
+
+Explicit Typecasting:
+num1 =1
+num2 = float(num1)
+
+here we manually convert num1 to float

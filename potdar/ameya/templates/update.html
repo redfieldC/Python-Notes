@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Person</title>
+</head>
+<body>
+    <h1>Update Person</h1>
+    <form method="POST" action="{% url 'person:update' person.pk %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>

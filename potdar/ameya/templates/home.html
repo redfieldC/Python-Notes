@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Person List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: left;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        td.actions {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 12px;
+            background-color: #eee;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #ccc;
+        }
+
+        .create-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Person List</h1>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Middle Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Actions</th>
+        </tr>
+        {% for person in people %}
+            <tr>
+                <td>{{ person.first_name }}</td>
+                <td>{{ person.middle_name }}</td>
+                <td>{{ person.last_name }}</td>
+                <td>{{ person.age }} years old</td>
+                <td class="actions">
+                    <a href="{% url 'person:update' person.pk %}">Update</a>
+                    <a href="{% url 'person:delete' person.pk %}">Delete</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+    <div class="create-button">
+        <a href="{% url 'person:create' %}">Create New Person</a>
+    </div>
+</body>
+</html>
