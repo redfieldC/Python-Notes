@@ -7,7 +7,16 @@ Commands given to machine is called as instruction
 Types of Instructions:
 Arthmetic, Decision control, Loop control 
 
-Program is a set of instruction executed sequentially or in a sequence. 
+Program is a set of instruction executed sequentially or in a sequence.
+
+Need of Data Type:
+python is a dynamically typed language ,that is python interpretor assign smartly data type to a variable as per value assigned to it.
+Example: x =10, data type of x is int 
+y = 10.5 , data type is float
+With this data type interpretor allocates memory space for that variable on the RAM
+
+
+
 
 str : Strings 
 declared in ' ' , "  " , '''   '''  , """    """
