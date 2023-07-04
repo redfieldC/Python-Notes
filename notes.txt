@@ -1,4 +1,14 @@
  
+keywords are reserved pre defined words in programming language.
+Example : if , else, for , etc
+
+Commands given to machine is called as instruction
+
+Types of Instructions:
+Arthmetic, Decision control, Loop control 
+
+Program is a set of instruction executed sequentially or in a sequence. 
+
 str : Strings 
 declared in ' ' , "  " , '''   '''  , """    """
 
