@@ -1,0 +1,4 @@
+This is for itvedant
+Below is information on Ameya Potdar
+This is for interview
+This is a practice of file handling in python
